@@ -1,6 +1,6 @@
 package br.univel;
 
-//Trabalho Primeira Forma.
+//Trabalho Segunda Forma.
 
 public class ExB implements Desenho {
 	
@@ -9,18 +9,19 @@ public class ExB implements Desenho {
 	@Override
 	public void desenhar() {
 		
-		System.out.print("a)\n\n");
+		System.out.print("b)\n\n");
 		
-		int n = 1;
+		int n = ALT;
 		for (int l = 0;l < ALT; l++) {
 			for (int c = 0; c < n; c++){
 				System.out.print("#");
 				
 			}
-			n++;
+			n--;
 			System.out.print("\n");
 		}
 		
+		System.out.print("\n");
 	}
 	
 }

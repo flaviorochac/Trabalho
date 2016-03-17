@@ -11,6 +11,7 @@ public class Principal {
 		List<Desenho> lista = new LinkedList<>();
 		
 		lista.add(new ExA ());
+		lista.add(new ExB ());
 		
 		for (Desenho d : lista){
 			d.desenhar();

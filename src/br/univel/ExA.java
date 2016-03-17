@@ -21,6 +21,7 @@ public class ExA implements Desenho {
 			System.out.print("\n");
 		}
 		
+		System.out.print("\n");
 	}
 	
 }
