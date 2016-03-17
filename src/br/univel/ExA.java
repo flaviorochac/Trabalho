@@ -12,7 +12,7 @@ public class ExA implements Desenho {
 		System.out.print("a)\n\n");
 		
 		int n = 1;
-		for (int l = 0;l < ALT; l++) {
+		for (int l = 0; l < ALT; l++) {
 			for (int c = 0; c < n; c++){
 				System.out.print("#");
 				
