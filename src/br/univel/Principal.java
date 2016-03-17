@@ -10,6 +10,8 @@ public class Principal {
 	public static void main(String [] args){
 		List<Desenho> lista = new LinkedList<>();
 		
+		lista.add(new ExA ());
+		
 		for (Desenho d : lista){
 			d.desenhar();
 		}
